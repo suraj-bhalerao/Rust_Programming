@@ -9,6 +9,9 @@ pub fn functions() {
     // 
     let result2 = function_with_parameters_with_return(20, 30);
     println!("The result of the second function call is: {}", result2);
+
+    // 
+    print_labeled_measurement(10, 'm');
 }
 
 fn demo_function(){
@@ -23,4 +26,8 @@ fn function_with_parameters(x: i32, y: i32) -> i32 {
 
 fn function_with_parameters_with_return(x: i32, y: i32) -> i32 {
     return x + y;
+}
+
+fn print_labeled_measurement(value: i32, unit_label: char) {
+    println!("The measurement is: {value}{unit_label}");
 }

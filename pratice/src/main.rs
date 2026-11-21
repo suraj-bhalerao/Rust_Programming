@@ -1,7 +1,9 @@
-mod variables;
-mod guessing_game;
-mod data_types;
-mod functions;
+// mod variables;
+// mod guessing_game;
+// mod data_types;
+// mod functions;
+// mod statements_n_expression;
+mod control_flow;
 
 fn main() {
     // take variables() function from variables.rs file
@@ -14,5 +16,11 @@ fn main() {
     // data_types::data_types();
 
     // take functions() function from functions.rs file
-    functions::functions();
+    // functions::functions();
+
+    // statements and expressions
+    // statements_n_expression::stm_n_expr();
+
+    // control flow
+    control_flow::control_flow_();
 }
